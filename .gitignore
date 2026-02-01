@@ -1,0 +1,40 @@
+# 屏蔽所有图片，防止误传磁盘快照或隐私截图
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+
+# 屏蔽包含敏感信息的本地分析报告
+/logs/
+/analysis/
+*.csv
+disk_scan_results.txt
+
+# 1. 屏蔽任何包含安全密钥的文件（针对 BitLocker）
+*key*
+*backup*
+secrets.txt
+
+# 2. Windows 系统碎片
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.tmp
+*.bak
+
+# 3. 开发环境产生的垃圾（防止污染仓库）
+node_modules/
+__pycache__/
+*.exe
+*.o
+*.class
+
+# 4. IDE 相关
+.idea/
+.vscode/*
+!.vscode/settings.json.example
+*.suo
+*.user
+.dist
