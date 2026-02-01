@@ -1,0 +1,37 @@
+{
+    // 编辑器基础设置
+    "editor.fontSize": 14,
+    "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.formatOnSave": true,
+    "files.autoSave": "onFocusChange",
+
+    // 路径重定向：体现“非系统盘”策略
+    // 假设这些环境已按规划安装在 F 盘或 D 盘
+    "go.gopath": "D:/02_Workspace/Go", 
+    "java.jdt.ls.java.home": "F:/Tool/Java/jdk-21",
+    "python.defaultInterpreterPath": "F:/Tool/Anaconda3/python.exe",
+    "maven.executable.path": "F:/Tool/Maven/bin/mvn",
+
+    // 排除搜索与索引，减少 CPU 和磁盘 IO 负担
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/node_modules": true,
+        "**/target": true,
+        "**/bin": true
+    },
+
+    // 终端设置
+    "terminal.integrated.cwd": "D:/02_Workspace",
+    "terminal.integrated.cursorStyle": "line",
+
+    // AI 编辑器辅助逻辑 (如 Trae 或 Antigravity 相关)
+    "editor.inlineSuggest.enabled": true,
+    "editor.suggestSelection": "first",
+
+    // 代码规范与美化
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    }
+}
