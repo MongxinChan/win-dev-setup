@@ -57,6 +57,6 @@ mklink /j "C:\Users\Name\AppData\Local\LargeFolder" "D:\03_Software\Cache\LargeF
 
 ## 👤 关于作者
 
-* **Name**: 孟欣 (Mengxin Chan)
+* **Name**: 孟欣 (Mongxin Chan)
 * **Focus**: CS / Software Architecture / 2027 Postgrad Prep
 * **Blog**: [loners.site](https://loners.site)
